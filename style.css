@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(4, 43, 4);
+  color: whitesmoke;
+}
+
+/* Classes */
+.flex-c{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ml-2{
+  margin-left: 20px;
+}
+.mr-2{
+  margin-right: 20px;
+}
+.container{
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* header */
+.main-header {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-size: 2rem;
+}
+
+.social-menu{
+  width: 200px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-menu li a{
+  color: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero{
+  border: 2px solid black;
+  width: 100%;
+  height: 720px;
+  box-shadow: inset 5px 100px 5rem  rgba(0, 0, 0, 0.275);
+  background: no-repeat center center / cover  url('./img/chill-background.jpeg');
+
+}
+
+.content{
+  width: 500px;
+  background-color: rgba(5, 5, 5, 0.562);
+  padding-top:10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.content p{
+  padding-bottom: 10px;
+}
+.stats{
+  /* background-color: blue; */
+  text-align: left;
+  border-top: solid 2px #fff;
+}
+.stats ul {
+  list-style-type: none;
+  padding: 10px;
+}
